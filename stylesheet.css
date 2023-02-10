@@ -1,0 +1,179 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.navbar{
+  background-image: linear-gradient(#6096B4,#93BFCF,#BDCDD6,#EEE9DA,#EEE9DA,white);
+}
+
+.navbar-brand {
+  color: #181D31;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 110px;
+  margin-top: -30px;
+}
+
+.logo{
+  width: 100%;
+}
+
+.carousel-inner {
+  display: flex;
+  width: 100%;
+  height:100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel-item {
+    margin: 10px;
+    color: white;
+    width: 450px;
+}
+
+.carousel:hover{
+  background: linear-gradient(45deg, #03001C,#00425A,#03001C,#2C74B3);
+}
+
+.carousel {
+  width: 600px;
+  height: 400px;
+  background-image: linear-gradient(
+    to right,
+    #03001C 0%,
+    #00425A 51%,
+    #03001C 100%
+    );
+    background-size: 300% auto;
+  box-shadow: 10px;
+}
+
+.carousel:hover {
+  background position: right center;
+  cursor: pointer;
+}
+
+
+.certification {
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(to top,#FFFBF5,#FFDDD2,#FF8E9E,#FF8E9E,#F9B5D0,#FF8E9E,#FFDDD2,white);
+}
+
+.carousel__container h2{
+  color:#13005A ;
+  font-family: monospace;
+  font-size: 50px;
+
+}
+
+.carousel__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.certificate{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.certificate__container{
+  text-align: center;
+}
+
+.about_me{
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.about_me__text{
+  color:#13005A ;
+  font-family: monospace;
+  font-size: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.project{
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.project__container{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fa{
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.col{
+  font-weight: bold;
+}
+
+.git_link{
+  color: black;
+}
+
+.git_link:hover{
+  color: #FF597B;
+}
+
+.project__title{
+  color:#13005A ;
+  font-family: monospace;
+  font-size: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+  font-family: 'Roboto Condensed' , sans-serif;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.info{
+  background-color: black;
+}
+
+.fa-envelope{
+  color: white;
+}
+
+.fa-envelope:hover{
+  color: #FF597B;
+}
+
+.fa-linkedin{
+  color: white;
+}
+
+.fa-linkedin:hover{
+  color: #FF597B;
+}
+
+.nav-link{
+  color: black;
+}
+
+.nav-link:hover{
+  color: #FF597B;
+}
